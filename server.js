@@ -83,5 +83,5 @@ app.get("/me", (req, res) => {
 });
 
 server.listen(4000, () => {
-    console.log("server is running on http://192.168.1.6:4000");
+    console.log("server is running on http://192.160.162.152:4000");
 });

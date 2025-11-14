@@ -3,7 +3,7 @@ import { io } from 'socket.io-client';
 import { Button, Input } from "antd"
 import Login from './Login';
 import { Navigate, useNavigate } from 'react-router-dom';
-const socket = io('http://192.168.1.6:4000');
+const socket = io('http://192.160.162.152:4000');
 
 const Chat = () => {
   const [messages, setMessages] = useState([]);

@@ -11,7 +11,7 @@ const Login = () => {
 
     const handleLogin = async () => {
         try {
-            const response = await axios.post('http://192.168.1.6:4000/login', {
+            const response = await axios.post('http://192.160.162.152:4000/login', {
                 name: name.trim(),
                 password: password.trim()
             });
